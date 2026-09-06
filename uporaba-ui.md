@@ -13,30 +13,26 @@ postopek zajema, obdelave in analize podatkov.
 
 ChatGPT sem vprašala:
 
-> Kako iz podatkov SURS izločim skupne kategorije in domače turiste, da dobim
-> samo posamezne tuje države?
+> Kako iz podatkov SURS izločim skupne kategorije in domače turiste, da dobim samo posamezne tuje države?
 
 Pomoč sem uporabila pri razumevanju filtriranja podatkov in združevanja
 prenočitev po posameznih državah. Na tej podlagi sem pripravila prikaz desetih
 držav z največ prenočitvami v Mariboru.
 
-### 2. Povprečna dolžina bivanja
+### 2. Filtriranje podatkov za posamezno leto
 
 ChatGPT sem vprašala:
 
-> Kako izračunam povprečno dolžino bivanja turistov kot razmerje med številom
-> prenočitev in številom prihodov?
+> Kako lahko iz podatkovnega okvirja `prenocitve` izločim samo podatke za leto 2023, da lahko posebej analiziram mesečne prenočitve v tem letu?
 
-Na podlagi razlage sem izračunala razmerje med skupnim številom prenočitev in
-prihodov za posamezno leto. Rezultat sem nato prikazala z grafom in ga
-interpretirala v Jupyter Notebooku.
+S pomočjo odgovora sem podatke filtrirala glede na vrednost v stolpcu `leto`.
+
 
 ### 3. Posebnost julija 2023
 
 ChatGPT sem vprašala:
 
-> Kako lahko preverim, ali julij 2023 zaradi festivala OFEM izstopa glede na
-> druge mesece leta 2023?
+> Kako lahko preverim, ali julij 2023 zaradi festivala OFEM izstopa glede na druge mesece leta 2023?
 
 S pomočjo razlage sem izločila podatke za leto 2023 in primerjala mesečno
 število prenočitev. Pri interpretaciji sem upoštevala, da iz podatkov ni mogoče
